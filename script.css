@@ -1,0 +1,49 @@
+body{
+    background-color: #22303C;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh; 
+} 
+
+#container{
+    color: #FFFFFF;
+}
+
+.digit{
+    font-size: 150px;
+    font-weight: bold;
+
+}
+
+.text{
+    font-size:40px;
+    font-weight: bold;
+}
+
+#btn{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn{
+    padding:10px 25px; /*padding-top-->to give the height to the button, padding-left-->to give width to the button*/
+    font-size:15px;
+    border-radius: 20px;
+    margin:0px 10px;   /* gap between the buttons */
+    color:#FFFFFF;
+    border: none;
+    cursor:pointer; /*used to change the cursor when pointed to the buttons*/
+}
+
+#start{
+    background-color: #1abc9c;
+}
+
+#stop{
+    background-color: #3498db;
+}
+
+#reset{
+    background-color: #e74c3c;
+}
